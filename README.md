@@ -50,6 +50,8 @@ mkdir public/uploads
 
 ## Running Locally
 
+**NOTE : ONLY DEVELOPMENT BUILD IS GOING TO WORK. THE PRODUCTION BUILD OF NEXTJS WILL NOT WORK.**
+
 ### Port Forwarding
 
 **Important**: To run this project locally, you will need to either:
