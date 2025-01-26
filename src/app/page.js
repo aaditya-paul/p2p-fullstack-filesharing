@@ -45,8 +45,8 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+    <div className="min-h-screen bg-[#060606] flex items-center justify-center">
+      <div className="bg-[black] border border-white shadow-[#06060620_0px_0px_5px_5px] p-8 rounded-lg  w-full max-w-md">
         <h1 className="text-2xl font-bold mb-6 text-center">
           P2P File Sharing
         </h1>
@@ -65,14 +65,14 @@ export default function Home() {
           <button
             type="submit"
             disabled={uploading}
-            className="w-full bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 disabled:opacity-50"
+            className="w-full bg-transparent border-white border text-white py-2 px-4 rounded hover:bg-white hover:text-black transition-all ease-linear disabled:opacity-50"
           >
             {uploading ? "Uploading..." : "Upload"}
           </button>
         </form>
         {fileUrl && (
           <div className="mt-6">
-            <p className="text-sm text-gray-600">File uploaded successfully!</p>
+            <p className="text-sm text-white">File uploaded successfully!</p>
             <a
               href={fileUrl}
               target="_blank"
